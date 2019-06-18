@@ -1,0 +1,17 @@
+//Botones
+.btn-outlined {
+  border-radius: 15px;
+  padding: 1rem;
+  outline: none;
+  border: 1px solid $primary-color;
+  cursor: pointer;
+  background: transparent;
+  color: white;
+  &:active {
+    border-width: 2px;
+    border-style: outset;
+  }
+  &-primary {
+    @include btn-outlined-color($primary-color);
+  }
+}

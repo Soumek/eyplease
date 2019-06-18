@@ -1,0 +1,37 @@
+.dashboard-home {
+  background-color: #dee5ed;
+
+  &-agenda {
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 0.5rem;
+    .agenda-card {
+      border-radius: 15px;
+      padding: 1.5rem;
+
+      &-date {
+        background-color: $secondary-color;
+        border-radius: 15px 0px 0px 15px;
+        color: white;
+        padding-bottom: 1.25rem;
+        span:first-child {
+          height: 80px;
+          text-align: center;
+          font-size: 4rem;
+          display: inline-block;
+          width: 100%;
+        }
+        span:last-child {
+          display: inline-block;
+          font-size: 15px;
+        }
+      }
+      &-body {
+        width: 65%;
+        background-color: #f2f2f2;
+        border-radius: 0px 15px 15px 0px;
+        padding: 1rem 2rem;
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+@mixin psudoicon($content, $type, $weight) {
+  content: '#{$content}';
+  font-family: 'Font Awesome 5 #{$type}';
+  font-weight: $weight;
+}
+
+@mixin btn-outlined-color($color) {
+  color: $color;
+  border-color: darken($color, 10%);
+  &:hover {
+    border-color: darken($color, 10%);
+  }
+
+  &:not(:disabled):not(.disabled):active {
+    border-width: 2px;
+
+    border-color: darken($color, 15%);
+    color: darken($color, 20%);
+  }
+}
