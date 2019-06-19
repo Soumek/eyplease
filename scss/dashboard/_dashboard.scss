@@ -1,5 +1,6 @@
 .dashboard {
   &-aside {
+    height: auto;
     background-color: #241f57;
     color: white;
     padding: 0;
@@ -8,8 +9,9 @@
     &-logo {
       padding-top: 1.5rem;
       padding-bottom: 2rem;
+      text-align: center;
       img {
-        width: 90%;
+        width: 80%;
         height: 70px;
       }
     }
@@ -17,7 +19,7 @@
       span {
         display: inline-block;
         width: 24.6px;
-        margin-right: 1.5rem;
+        margin-right: 0.5rem;
         i {
           color: #c90b79;
           margin-left: 0.5rem;
