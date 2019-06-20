@@ -2,6 +2,10 @@
   background-color: #dee5ed;
   height: 125vh;
   overflow: scroll;
+  &-sectiontitle {
+    font-size: 1rem;
+    font-weight: normal;
+  }
   &-agenda {
     background-color: #fff;
     border-radius: 15px;
@@ -45,6 +49,27 @@
           }
         }
       }
+    }
+  }
+
+  //Table
+  .table {
+    &-btnedit {
+      border: 3px solid #999999;
+      color: #999999;
+      font-size: 14px;
+      font-weight: 600;
+      i {
+        font-size: 0.9rem;
+      }
+    }
+    &-btndetails {
+      border-width: 3px;
+      font-size: 14px;
+      font-weight: 600;
+    }
+    &-trashicon {
+      color: #999999;
     }
   }
 }
